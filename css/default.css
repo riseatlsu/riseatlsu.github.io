@@ -1,0 +1,211 @@
+/* =========================
+   Font Imports
+   ========================= */
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+   
+   /* =========================
+      Base Styles
+      ========================= */
+   body {
+       color: white;
+       background-color: #000;
+       font-family: "Lato", sans-serif;
+       font-weight: 300;
+       font-style: normal;
+       text-align: justify;
+   }
+   
+   a {
+       color: white !important;
+       font-size: 2.25rem;
+       text-decoration: none;
+   }
+   
+   hr {
+       background-color: white;
+       height: 2.5px;
+       border: none;
+   }
+   
+   /* =========================
+      Typography
+      ========================= */
+   h1 {
+       font-size: 3rem;       /* 48px */
+       font-weight: 900;
+   }
+   
+   h2 {
+       font-size: 2.25rem;    /* 36px */
+       font-weight: 700;
+   }
+   
+   h3 {
+       font-size: 1.75rem;    /* 28px */
+       font-weight: 600;
+   }
+   
+   h4 {
+       font-size: 1.25rem;    /* 20px */
+       font-weight: 500;
+   }
+   
+   p,
+   li {
+       font-size: 1.125rem;   /* 18px */
+   }
+   
+   /* =========================
+      Layout & Containers
+      ========================= */
+   .container-lg {
+       padding-left: 2.5rem;
+       padding-right: 2.5rem;
+   }
+   
+   .introduction {
+       background-color: #121212;
+       padding: 25px;
+   }
+   
+   .learn-more > * {
+       margin-top: 30px;
+       margin-bottom: 75px;
+   }
+   
+   /* =========================
+      Navbar Styles
+      ========================= */
+   .navbar a:hover {
+       font-weight: bold;
+       color: white !important;
+   }
+   
+   .navbar-brand {
+       font-size: 3.5rem !important;
+       font-weight: bold;
+       font-family: "Merriweather", serif;
+   }
+   
+   .navbar-toggler {
+       font-size: 2.25rem;
+   }
+   
+   .navbar-toggler-icon {
+       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='square' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+   }
+   
+   /* =========================
+      Ribbon Badge
+      Source: cssportal.com
+      ========================= */
+   .ribbon {
+       position: absolute;
+       right: -5px;
+       top: -5px;
+       z-index: 1;
+       overflow: hidden;
+       width: 75px;
+       height: 75px;
+       text-align: right;
+   }
+   
+   .ribbon span {
+       font-size: 10px;
+       font-weight: bold;
+       color: #FFF;
+       text-transform: uppercase;
+       text-align: center;
+       line-height: 20px;
+       transform: rotate(45deg);
+       -webkit-transform: rotate(45deg);
+       width: 100px;
+       display: block;
+       background: linear-gradient(#05EFF7 0%, #087F8F 100%);
+       box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+       position: absolute;
+       top: 19px;
+       right: -21px;
+   }
+   
+   .ribbon span::before {
+       content: "";
+       position: absolute;
+       left: 0px;
+       top: 100%;
+       z-index: -1;
+       border-left: 3px solid #087F8F;
+       border-right: 3px solid transparent;
+       border-bottom: 3px solid transparent;
+       border-top: 3px solid #087F8F;
+   }
+   
+   .ribbon span::after {
+       content: "";
+       position: absolute;
+       right: 0px;
+       top: 100%;
+       z-index: -1;
+       border-left: 3px solid transparent;
+       border-right: 3px solid #087F8F;
+       border-bottom: 3px solid transparent;
+       border-top: 3px solid #087F8F;
+   }
+   
+   /* =========================
+      Responsive Styles
+      ========================= */
+   @media (min-width: 992px) {
+       .navbar {
+           background-color: transparent;
+       }
+   
+       .container-lg {
+           padding-left: 0;
+           padding-right: 0;
+       }
+   
+       .navbar-brand {
+           font-size: 1.75rem !important;
+       }
+   
+       .nav-link {
+           font-size: 1.75rem !important;
+       }
+   
+       .introduction {
+           padding: 0;
+           background-color: black;
+       }
+   
+       hr {
+           height: 0.5px;
+       }
+   
+       h1 {
+           font-size: 4rem;     /* 64px */
+       }
+   
+       h2 {
+           font-size: 3rem;     /* 48px */
+       }
+   
+       h3 {
+           font-size: 2.25rem;  /* 36px */
+       }
+   
+       h4 {
+           font-size: 1.5rem;   /* 24px */
+       }
+   
+       p,
+       li {
+           font-size: 1.125rem; /* 18px */
+       }
+   
+       a {
+           font-size: 1.25rem !important;
+       }
+   }
+   

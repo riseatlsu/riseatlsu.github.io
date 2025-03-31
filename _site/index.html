@@ -1,0 +1,173 @@
+<!-- Website developed by Felipe Fronchetti -->
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title></title>
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <meta name=“theme-color” content="#000000"/>
+    <!-- CSS (Default) -->
+    <link href="http://localhost:4000/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <script src="https://kit.fontawesome.com/3d9da8be4a.js" crossorigin="anonymous"></script>
+</header>
+<body>
+
+  <div class="container-lg">
+    <nav class="navbar sticky-top navbar-expand-lg">
+          <a class="navbar-brand" href="http://localhost:4000">LSU Robotics Lab</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:4000/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:4000/projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:4000/publications">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:4000/members">Members</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:4000/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    <div class="container-lg">
+      <style>
+    body {
+        background-color: rgb(0, 0, 0);
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.85)), url('../img/lsu_2.jpeg');
+        background-repeat: no-repeat; 
+        background-position: center;
+        background-attachment: fixed;       
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .header {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .name {
+        font-weight: bold;
+    }
+
+    .description {
+        font-size: 28px;
+        font-weight: inherit;
+    }
+
+    .social-button {
+        width: 75px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 45%;
+        color: white;
+        margin-right: 25px;
+        margin-top: 15px;
+        text-decoration: none;
+    }
+
+    .social-button:hover {
+        background-color: rgb(43, 43, 43);  
+    }
+    
+    @media (min-width: 576px) {
+        .card-group.card-group-scroll {
+            overflow-x: auto;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .card-group.card-group-scroll > .card {
+        flex-basis: 35%;
+        border-radius: 20px;
+        background-color: black;
+    }
+    
+    .card-body {
+        color: black;
+        font-weight: inherit;
+        background-color: rgb(235, 235, 235);
+    }
+
+    .card:hover {
+        -webkit-box-shadow:0px 0px 35px 0px rgba(121, 121, 121, 0.29);
+        -moz-box-shadow: 0px 0px 35px 0px rgba(127, 127, 127, 0.29);
+        box-shadow: 0px 0px 35px 0px rgba(133, 133, 133, 0.29);
+    }
+
+</style>
+
+<div class="row header py-4 px-3 text-white" style="background-color: rgba(31, 31, 31, 0.577);">
+    <div class="col-xl-12">
+        <h2 class="name mb-2"><span>Welcome</span></h2>
+        <h4 class="description">
+            The LSU Robotics Lab, within the Division of Computer Science and Engineering at Louisiana State University, explores the intersection of robotics, software engineering, artificial intelligence,
+            and human-computer interaction. Our research focuses on programming environments for robots, the use of artificial intelligence in the creation of autonomous agents, intuitive tools for end-user programming, and the design of meaningful human-robot interactions. We aim to make robotics more accessible, intelligent,
+            and responsive to human needs. We are open for collaboration, participation, and external investments.
+        </h4>
+    </div>
+</div>
+
+<div class="row header">
+    <h3 class="mb-2">Recent publications</h3>
+    <div class="row row-cols-1 row-cols-lg-3 mt-1">
+        <div class="col">
+          <a href="https://dl.acm.org/doi/10.1145/3597503.3623329" target="_blank">
+          <div class="card">
+            <video src="files/duplo.mp4" class="card-img-top" muted autoplay playsinline loop></video>
+            <div class="card-body">
+                <div class="ribbon"><span>ICSE 2024</span></div>
+              <h5 class="card-title">Block-based Programming for Two-Armed Robots: A Comparative Study</h5>
+              <p class="card-text">This paper presents a block-based tool that simplifies programming two-armed robots for non-professionals, achieving higher efficiency and success than commercial alternatives.</p>
+            </div>
+          </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a href="https://www.computer.org/csdl/proceedings-article/vrw/2024/744900b192/1XlcyzqqHXq" target="_blank">
+          <div class="card">
+            <video src="files/roboart.mp4" class="card-img-top" muted autoplay playsinline loop></video>
+            <div class="card-body">
+                <div class="ribbon"><span>VR 2024</span></div>
+              <h5 class="card-title">RoboArt: Artistic Robot Programming in Mixed Reality</h5>
+              <p class="card-text">This paper introduces a mixed reality solution that empowers artists to program articulated robots through natural gestures, making robotics accessible for creative projects and enhancing human-robot interaction.</p>
+            </div>
+          </div>
+          </a>
+        </div>
+
+        <div class="col">
+            <a href="https://dl.acm.org/doi/10.1145/3563296" target="_blank">
+            <div class="card">
+              <video src="files/alvo.mp4" class="card-img-top" muted autoplay playsinline loop></video>
+              <div class="card-body">
+                <div class="ribbon"><span>SPLASH 2022</span></div>
+                <h5 class="card-title">Can Guided Decomposition Help End-Users Write Larger Block-Based Programs?</h5>
+                <p class="card-text">This paper presents a block-based system with guided decomposition for mobile robots, enabling end-users to manage large programs more effectively and perform better on complex tasks.</p>
+              </div>
+            </div>
+            </a>
+        </div>
+    </div>
+</div>
+    </div>
+</body>
+</html>
