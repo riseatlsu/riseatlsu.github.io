@@ -1,8 +1,67 @@
-collections:
-  papers:
-  degrees:
-  awards:
-  fundings:
-  extensions:
-  tools:
-  service:
+url: https://weriselab.com/
+
+# Site settings
+title: RISE Lab
+email: ffronchetti@lsu.edu
+description: "Robotics and Software Engineering Laboratory (RISE) at Louisiana State University."
+
+# Team names, titles and social links
+people:
+- name: Ronnie de Souza Santos
+  pic: 1
+  position: Chair
+  affiliation: University of Calgary
+  social:
+    - title: twitter
+      url: https://x.com/softwaronnie
+    - title: linkedin
+      url: https://www.linkedin.com/in/drdesouzasantos/
+    - title: envelope
+      url: mailto:ronnie.desouzasantos@ucalgary.ca
+
+- name: Rodrigo Spínola
+  pic: 2
+  position: Chair
+  affiliation: Virginia Commonwealth University
+  social:
+    - title: twitter
+      url: https://x.com/rodrigoospinola
+    - title: linkedin
+      url: https://www.linkedin.com/in/rodrigoospinola/
+    - title: envelope
+      url: mailto:spinolaro@vcu.edu
+
+- name: Felipe Fronchetti
+  pic: 3
+  position: Web/Social Chair
+  affiliation: Louisiana State University
+  social:
+    - title: twitter
+      url: https://x.com/fronchat
+    - title: linkedin
+      url: https://www.linkedin.com/in/fronchat/
+    - title: envelope
+      url: mailto:fronchettl@vcu.edu
+
+- name: Cleyton Magalhães
+  pic: 4
+  position: Web/Social Chair
+  affiliation: Federal Rural University of Pernambuco
+  social:
+    - title: twitter
+      url: https://x.com/profcvanut
+    - title: linkedin
+      url: https://br.linkedin.com/in/cvanut
+    - title: envelope
+      url: mailto:cleyton.vanut@ufrpe.br
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/fairsoft
+  - title: github
+    url: http://github.com/fairsoft
+
+# Build settings
+markdown: kramdown
+permalink: pretty
